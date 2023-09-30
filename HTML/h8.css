@@ -1,0 +1,56 @@
+/* h1::before{
+    content: "hello";
+    background-color:black;
+    height: 100px;
+    width: 50px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+} */
+h1:hover:after{
+    content: "hello";
+    background-color:black;
+    height: 100px;
+    width: 50px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+/* p:hover::after{
+    content: "text";
+    height: 100px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+p:hover::before{
+    content: "text";
+    height: 100px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+} */
+/* .shadow-1{
+    height: 200px;
+    width: 200px;
+    background-color:yellow;
+    border: 10px solid grey;
+}
+h1::first-letter{
+    font-size: 50px;
+    color: cornflowerblue;
+    background-color: aliceblue;
+}
+p::first-line{
+    font-size: 50px;
+    color: chartreuse;
+    text-decoration: underline;
+}
+p::selection{
+    background-color: crimson;
+    color: white;
+} */

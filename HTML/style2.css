@@ -1,0 +1,39 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    text-size-adjust: 500;
+}
+button{
+    text-align: center;
+    color: brown;
+}
+p{
+    text-align: center;
+}
+.Html{
+    display: flex;
+
+}
+.pre{
+    text-align: center;
+}
+.css{
+    
+    text-align:left;
+}
+.image{
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

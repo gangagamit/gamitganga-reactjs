@@ -1,0 +1,48 @@
+header div nav a:nth-child(1){
+    background-color: aqua;
+}
+header div nav a:nth-child(4){
+    background-color: aqua;
+}
+h1:nth-last-child(20){
+    background-color: brown;
+}
+h1:nth-last-child(17){
+    background-color: brown;
+}
+h1:nth-last-child(15){
+    background-color: brown;
+}
+section div p:nth-child(1){
+    background-color: blue;
+}
+div h1:only-child{
+    background-color: blueviolet;
+}
+div:nth-child(11) h1:nth-child(2){
+    background-color: cadetblue;
+}
+div:nth-child(11) h1:nth-child(6){
+    background-color: cadetblue;
+}
+span p:only-child{
+    background-color: chartreuse;
+}
+span p:nth-child(2){
+    background-color: chocolate;
+}
+div div h1:nth-child(4){
+    background-color: deeppink;
+}
+div div h1:nth-child(9){
+    background-color: deeppink;
+}
+h1:nth-child(15){
+    background-color:blue;
+}
+h1:nth-child(18){
+    background-color:blue;
+}
+h1:nth-child(21){
+    background-color:blue;
+}

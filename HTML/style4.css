@@ -1,0 +1,78 @@
+.text-color p{
+    color: blue;
+}
+.text-alignment p:nth-child(1){
+    color: brown;
+    text-align: right;
+}
+.text-alignment p:nth-child(2){
+    color: blueviolet;
+    text-align: center;
+}
+.text-decoration p:nth-child(1){
+    color:cadetblue;
+    text-decoration: overline;
+}
+.text-decoration p:nth-child(2){
+    color: yellow;
+    text-decoration: dotted;
+}
+.text-decoration p:nth-child(3){
+    color: red;
+    text-decoration: dashed;
+}
+.text-decoration p:nth-child(4){
+    color:navy;
+    text-decoration: underline;
+}
+.text-decoration p:nth-child(5){
+    color: orangered;
+    text-decoration: line-through;
+}
+.text-transform p:nth-child(1){
+    color: skyblue;
+    text-transform: capitalize;
+}
+.text-transform p:nth-child(2){
+    color:purple;
+    text-transform: uppercase;
+}
+.text-transform p:nth-child(3){
+    color: violet;
+    text-transform: lowercase;
+}
+.text-indentation p{
+    color: blueviolet;
+    text-indent: 200px;
+}
+.letter-spacing p{
+    color: crimson;
+ letter-spacing: 20px;   
+}
+.text-direction p{
+    color: darkgreen;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.text-shadow p{
+    text-shadow: 2px 2px 1px rgb(255, 0, 0);
+}
+.word-spacing p{
+    color: darkolivegreen;
+    word-spacing: 10px;
+}
+p.a{
+    color: lawngreen;
+    vertical-align: bottom;
+}
+.white-space p{
+    color: deeppink;
+    white-space: wrap;
+    white-space: pre;
+    text-align: justify;
+}
+.visibility p{
+    color: green;
+    visibility: visible;
+    /* visibility: hidden; */
+}

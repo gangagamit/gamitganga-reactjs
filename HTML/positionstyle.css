@@ -1,0 +1,28 @@
+.position{
+    height: 200px;
+    width: 400px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    top: 200px;
+    left: 30px;
+    right: 30px;
+    bottom: 300px;
+    margin: auto;
+    position: relative;
+    /* position: sticky; */
+    border: 2px solid black;
+    z-index: 1;
+}
+.s{
+    background-color: rgb(10, 6, 73);
+    height: 300px;
+    width: 900px;
+    position: relative;
+    top: 350px;
+     bottom: 200px;
+    left:250px;
+     right: 0;  
+    border-radius: 10px;
+    position: fixed;
+    border: 2px solid black;
+}
