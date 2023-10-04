@@ -1,0 +1,19 @@
+.div-5{
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    top:0;
+}
+.div-5:hover{
+transition: ease-in;
+transition-duration: 5s;
+transition-property:width;
+transition-timing-function: ease-in-out;
+width: 1200x;
+height: 800px;
+}

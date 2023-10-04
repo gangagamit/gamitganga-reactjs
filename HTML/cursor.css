@@ -1,0 +1,23 @@
+body{
+    font-size: medium;
+    text-align: center;
+}
+div{
+    width: 43%;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid red;
+}
+div.one{
+    border: 3px solid brown;
+    cursor: wait;
+}
+div.two{
+    border: 3px solid brown;
+    cursor: no-drop;
+}
+div.three{
+    border: 3px solid brown;
+    cursor: url(images.png), pointer;
+}
