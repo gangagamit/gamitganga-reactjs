@@ -1,0 +1,13 @@
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.col{
+    background-color: rgb(146, 243, 111);
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 400px;
+}

@@ -1,0 +1,24 @@
+
+.btn1{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.btn2{
+    border-radius: 5px;
+    background-color: rgb(2, 2, 13);
+    color: white;
+}
+.col-4{
+    background-color: aqua;
+}
+span{
+    color: white;
+}
+.icon{
+   margin-left: 100px; 
+}
+
+
+

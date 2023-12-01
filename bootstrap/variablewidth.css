@@ -1,0 +1,18 @@
+.col{
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.col-md-auto{
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.col-sm-8{
+    background-color: aquamarine;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: 400px;
+}

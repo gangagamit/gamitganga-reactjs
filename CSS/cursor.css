@@ -1,0 +1,134 @@
+body{
+    font-size: medium;
+    text-align: center;
+}
+div{
+    width: 15%;
+    float: left;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid red;
+}
+div.box1{
+    border: 3px solid brown;
+    cursor: wait;
+}
+div.box2{
+    border: 3px solid brown;
+    cursor: no-drop;
+}
+div.box3{
+    border: 3px solid brown;    
+}
+div.box4{
+    border: 3px solid brown;
+    cursor: move;
+}
+div.box5{
+    border: 3px solid brown;
+    cursor: copy;
+}
+div.box6{
+    border: 3px solid brown;
+    cursor: crosshair;
+}
+div.box7{
+    border: 3px solid brown;
+    cursor: default;
+}
+div.box8{
+    border: 3px solid brown;
+    cursor: e-resize;
+}
+div.box9{
+    border: 3px solid brown;
+    cursor: ew-resize;
+}
+div.box10{
+    border: 3px solid brown;
+    cursor: grab;
+}
+div.box11{
+    border: 3px solid brown;
+    cursor: grabbing;
+}
+div.box12{
+    border: 3px solid brown;
+    cursor: help;
+}
+div.box13{
+    border: 3px solid brown;
+    cursor: n-resize;
+}
+div.box14{
+    border: 3px solid brown;
+    cursor: ne-resize;
+}
+div.box15{
+    border: 3px solid brown;
+    cursor: nesw-resize;
+}
+div.box16{
+    border: 3px solid brown;
+    cursor: ns-resize;
+}
+div.box17{
+    border: 3px solid brown;
+    cursor: nw-resize;
+}
+div.box18{
+    border: 3px solid brown;
+    cursor: nwse-resize;
+}
+div.box19{
+    border: 3px solid brown;
+    cursor: no-drop;
+}
+div.box20{
+    border: 3px solid brown;
+    cursor: none;
+}
+div.box21{
+    border: 3px solid brown;
+    cursor: not-allowed;
+}
+div.box22{
+    border: 3px solid brown;
+    cursor: pointer;
+}
+div.box23{
+    border: 3px solid brown;
+    cursor: progress;
+}
+div.box24{
+    border: 3px solid brown;
+    cursor: row-resize;
+}
+div.box25{
+    border: 3px solid brown;
+    cursor: s-resize;
+}
+div.box26{
+    border: 3px solid brown;
+    cursor: se-resize;
+}
+div.box27{
+    border: 3px solid brown;
+    cursor: sw-resize;
+}
+div.box28{
+    border: 3px solid brown;
+    cursor: text;
+}
+div.box29{
+    border: 3px solid brown;
+    cursor: w-resize;
+}
+div.box30{
+    border: 3px solid brown;
+    cursor: zoom-in;
+}
+div.box31{
+    border: 3px solid brown;
+    cursor: zoom-out;
+}

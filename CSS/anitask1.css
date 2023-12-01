@@ -1,0 +1,62 @@
+.box{
+    height: 300px;
+    width: 500px;
+    border: 10px solid orange;
+    background-color:rgba(0, 0, 0, 0.808);
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 200px;
+    width: 300px;
+    border: 10px solid orangered;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:40px;
+    left: 100px;
+}
+/* .box{
+    animation-name: border;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+@keyframes border{
+    0%{
+        border-top: 2px solid orange;
+    }
+    50%{
+        border-bottom:2px solid red;
+    }
+    75%{
+        border-left: 2px solid green;
+    }
+    100%{
+        border-right: 2px solid yellow;
+    }
+} */
+.box1{
+    animation-name:frame;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes frame{
+    0%{
+        border-top: 2px solid orange;
+    }
+    50%{
+        border-bottom:2px solid red;
+    }
+    75%{
+        border-left: 2px solid green;
+    }
+    100%{
+        border-right: 2px solid yellow;
+        left: 75px;
+    }
+}

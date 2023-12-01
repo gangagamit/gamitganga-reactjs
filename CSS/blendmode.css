@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;  
+}
+.main{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+img{
+    object-fit: cover;
+    object-position: right;
+    position: absolute;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255,0,0,0.5);
+    z-index: 10;
+}
+.overlay:hover{
+    background-color: rgb(255,0,0,0.371);
+}
+.box{
+    height: 500px;
+    width: 500px;
+    float: right;
+    background-image: url(image/imag1.jpg), url(image/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+}

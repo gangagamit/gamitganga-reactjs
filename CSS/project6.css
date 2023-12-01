@@ -1,0 +1,16 @@
+body{
+    background-image: url('image/istockphoto-1419288565-170667a.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+   
+}
+h1{
+    font-style:oblique;
+    text-decoration: underline;
+    color: aliceblue;
+}
+pre{
+    font-size:larger;
+    color:white;
+}

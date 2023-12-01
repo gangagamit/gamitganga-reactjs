@@ -1,0 +1,108 @@
+.container{
+    height: 500px;
+    width: 389px;
+    background-color: rgb(3, 70, 55);
+    border-radius: 20px;
+    margin: 20px;
+}
+.text h3{
+    position: absolute;
+    top: 20px;
+    left: 120px; 
+    color: white;
+}
+.text h1{
+    position: absolute;
+    top: 50px;
+    left: 90px; 
+    color:rgb(216, 216, 15);
+}
+.img{
+    position: absolute;
+    top: 210px;
+    left: 15px;
+}
+.img1{
+    position: absolute;
+    top:410px;
+    left: 310px;
+}
+.text1 h5{
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+.container1{
+    height: 250px;
+    width: 450px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 20px;
+    position: absolute;
+    top:10px;
+    left: 420px;
+}
+.img2{
+    position: absolute;
+    height: 90px;
+    top: -50px;
+    left: 50px;  
+}
+.text3{
+    color: white;
+    position: absolute;
+    left: 300px;
+}
+.container1 button{
+    position: absolute;
+    font-size:larger;
+    left: 300px;
+    top: 160px;
+    border-radius: 10px;
+}
+.container2{
+    position: absolute;
+    top:30px;
+    left: 900px;
+}
+.text4{
+    position: absolute;
+    top: 40px;
+    left: 1200px;
+}
+ .text4 button{
+    position: absolute;
+    font-size:large;
+    top: 120px;
+    left: 20px;
+    border-radius: 10px;
+}
+.container3{
+    position: absolute;
+    height: 200px;
+    width: 900px;
+    background-color: green;
+    border-radius: 20px;
+    top: 300px;
+    left: 440px;
+}
+.img3{
+    position: absolute;
+    top: 270px;
+    left: 360px;   
+}
+.text5{
+    position: absolute;
+    top: 300px;
+    left: 800px; 
+    color: white;
+}
+.text5 button{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    font-size:larger;
+    border-radius: 20px; 
+    width: 130px;
+    height: 50px;
+}

@@ -1,0 +1,18 @@
+body{
+    
+    background-image: url(image/bgimpro4.jpg);
+    
+    
+}
+b{
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    margin-right: 20px;
+    gap: 500px;
+}
+.navbar a{
+    margin: 10px;
+    color: white;
+}

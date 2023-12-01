@@ -1,0 +1,10 @@
+@media(max-width:767px){
+    /*header start*/
+    /*nav-1*/
+    .container{
+        display: none;
+    }
+    .appoinment{
+        justify-content: center;
+    }
+}

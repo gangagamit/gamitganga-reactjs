@@ -1,0 +1,52 @@
+.container{
+    background-color: white;
+}
+.col-12{
+    text-align: center;
+    background-color: aqua;
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-6{
+    text-align: center;
+    background-color: rgb(87, 226, 177);
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-4{
+    text-align: center;
+    background-color: lightblue;
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-8{
+    text-align: center;
+    background-color: lightcoral;
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-3{
+    text-align: center;
+    background-color: lightsalmon;
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-2{
+    text-align: center;
+    background-color: lightgreen;
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.col-1{
+    text-align: center;
+    background-color: lightcyan;
+    border: 5px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}

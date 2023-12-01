@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    display: grid;
+    border: 1px solid black;
+    height: 500px;
+    width: 600px; 
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 60px auto auto;
+}
+.flex1{
+    background-color: black;
+    color: white;
+}
+.flex2{
+    background-color: skyblue;
+    color: black;
+}
+.flex3{
+    background-color: rgb(109, 231, 109);
+    color: black;
+}
+.flex4{
+    background-color: darkcyan;
+    color: black;
+}
+.flex5{
+    background-color: rgb(54, 88, 240);
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+.flex6{
+    background-color: rgb(110, 110, 238);
+    color: black;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.flex7{
+    background-color: lightgreen;
+    color: black;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end:6;
+}
+.flex8{
+    background-color: rgb(219, 117, 240);
+    color: black;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+.flex9{
+    background-color: rgb(235, 166, 118);
+    color: black;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}

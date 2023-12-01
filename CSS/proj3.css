@@ -1,0 +1,15 @@
+body{
+ background-image: url(image/travel-image-for-any-location-Google-Search.png); 
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+pre{
+  font-style:oblique;
+  text-transform: capitalize;
+  font-size: 15px;
+ 
+}
+h1{
+  text-decoration: underline;
+}

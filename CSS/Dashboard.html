@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!--js all font link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--font cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--main css-->
+    <link rel="stylesheet" href="Dashboard.css">
+    <!--responsive link-->
+    <link rel="stylesheet" href="Dashbordresponsive.css">
+</head>
+
+<body>
+<div class="sidebar">
+    <aside>
+        <div class="menu">
+            <img src="dashbordimg/asset 41.svg">
+            <span>Vuexy</span>
+            <div class="item"><a href="#"><i class="fa-solid fa-house"></i><span>Dashboard</span>
+                </a></div>
+            <div class="item"><a href="#"><i class="fa fa-columns" aria-hidden="true"></i>Layouts
+                </a></div>
+            <div class="item"><a href="#"><i class="fa fa-file" aria-hidden="true"></i>Front pages
+                </a></div>
+            <div class="item"><a href="#"><span>Apps & Pages</aspan></a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-envelope"></i><span>Email</span></a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-comments"></i><span>Chat</span></a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-calendar"></i>Calendar</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-square-kanban"></i>kanban</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-cart-shopping"></i>eCommerce</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-book-open"></i>Academy</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-truck"></i>Logistic</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-file-invoice-dollar"></i>invoice</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-user-group"></i>Users</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-gear"></i>Roles & permissions</a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-file"></i>Pages</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-lock"></i>Authentication</a></div>
+            <div class="item"><a href="#">Wizard Example</a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-square"></i>Modal Example</a></div>
+            <div class="item"><a href="#">COMPONENTS</a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-credit-card"></i>Cards</a></div>
+            <div class="item"><a href="#">User interface</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-arrows-to-dot"></i><span>Extended UI</span></a></div>
+            <div class="item"><a href="#">Icons</a></div>
+            <div class="item"><a href="#">Form & Tabels</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-toggle-off"></i>form elements</a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-table"></i><span>Form Layout</span></a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-arrow-right"></i><span>Form Wizard</span></a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-square-check"></i><span>Form validation</span></a>
+            </div>
+            <div class="item"><a href="#"><i class="fa-solid fa-table-columns"></i><span>Tables</span></a></div>
+            <div class="item"><a href="#"><span>CHARTS & MAPS</span></a></div>
+            <div class="item"><a href="#"><span>Chart</span></a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-map"></i><span>Leaflet maps</span></a></div>
+            <div class="item"><a href="#"><span>MISC</span></a></div>
+            <div class="item"><a href="#"><i class="fa-solid fa-futbol"></i><span>Support</span></a></div>
+            <div class="item"><a href="#"><i class="fa-regular fa-file-lines"></i><span>Documentation</span></a></div>
+        </div>
+    </aside>
+
+    <!--sidebar-->
+
+        <header>
+            <div class="navbar">
+                <!-- <nav> -->
+                <div>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i>Search(ctrl+/)</a>
+                </div>
+            
+                <div class="lang">
+                    <a href="#"><i class="fa-solid fa-language"></i></a>
+                    <a href="#"><i class="fa-solid fa-sun"></i></a>
+                    <a href="#"><i class="fa-solid fa-grip"></i></a>
+                    <a href="#"><i class="fa-regular fa-bell"></i></a>
+                    <a href="#"><img src="dashbordimg/asset 0.png" height="30px" width="30px"></a>
+                </div>
+                </div>
+                <!-- </nav> -->
+        </header>
+    <div class="slide">
+        <div class="img1">
+            <div class="image1">
+                <img src="dashbordimg/asset 6.png" height="200px" width="200px">
+            </div>
+            <div class="text">
+                <h3>website Analitic</h3><br>
+                <p>Total 28.5% conversation Rate</p><br><br>
+                <h3>Revenue Source</h3><br><br>
+                <div class="btn1">
+                    <input type="button" value="268">direct
+
+                    <input type="button" value="890">Organic
+                </div><br><br>
+                <div class="btn2">
+                    <input type="button" value="62">Referral
+
+                    <input type="button" value="1.2k">Campaign
+                </div>
+            </div>
+        </div>
+        <div class="saleovr">
+            <p>Sales Overview</p>
+            <h3 style="color: rgb(88, 85, 85);">$42.5k</h3>
+            <h4 style="color: lightgreen;">+18.2%</h4>
+            <div class="icon1">
+                <i class="fa-solid fa-cart-shopping"></i> Order
+                <h2>62.2%</h2>
+                <p>6,440</p>
+            </div>
+            <div class="vs">VS</div>
+            <div class="icon2">
+                <h4>Visited</h4>
+                <div class="link"><i class="fa-solid fa-link"></i>
+                    <h2>25.5%</h2>
+                    <p>12,749</p>
+                </div>
+
+            </div>
+            <div class="progress">
+                <div class="proc1">
+                </div>
+                <div class="proc2">
+                </div>
+            </div>
+        </div>
+        <div class="generated">
+            <div class="img2">
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+            </div>
+            <div class="text1">
+                <h5 class="text2" style="color: black;">97.5k</h5>
+                <small style="color:  rgb(192, 185, 185);">Revenue Generated</small>
+            </div>
+            <div class="waveimg">
+                <img src="dashbordimg/wave.svg" width="248px">
+            </div>
+        </div>
+    </div>
+    <div class="reports">
+        <div class="earning">
+            <h5 class="text2" style="color: rgb(126, 117, 117);">Earning Reports</h5>
+            <small style="color:  rgb(173, 167, 167);">weekly Earning Overview</small>
+
+
+            <div class="earning1">
+                <h1>$468</h1>
+                <div class="num">
+                    <h3>+4.2%</h3>
+                </div>
+                <pre>You informed of this 
+week compared to last 
+week
+                    </pre>
+            </div>
+            <div class="graph1">
+                <img src="dashbordimg/line graph.svg">
+            </div>
+            <div class="earninng3">
+                <div class="dollar">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <span>Earnings</span>
+                <div class="doll">
+                    <h1>$545.69</h1>
+                    <div class="procc">
+                        <div class="proc3">
+                        </div>
+                        <div class="proc4">
+                        </div>
+                    </div>
+                </div>
+                <div class="profit">
+                    <div class="pie">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <span>Profit</span>
+                    <div class="doll1">
+                        <h1>$256.34</h1>
+                        <div class="procc1">
+                            <div class="proc5">
+                            </div>
+                            <div class="proc6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Expense">
+                    <div class="paypal">
+                        <i class="fab fa-paypal"></i>
+                    </div>
+                    <span>Expense</span>
+                    <h1 class="doll2">$74.19</h1>
+                    <div class="procc2">
+                        <div class="proc7">
+                        </div>
+                        <div class="proc8">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="Tracer">
+            <h2 style="color: rgb(145, 140, 140);">Support Tracer</h2>
+            <p>Last 7 day</p>
+            <div class="text3">
+                <h1 class="numb">165</h1>
+                <p>Total Tickets</p>
+            </div>
+            <div class="tickets">
+                <div class="tick">
+                    <div class="t"><i class="fa-solid fa-ticket"></i></div>
+                    <div class="tic"><span>New Tickets</span>
+                        <h3>142</h3>
+                    </div>
+                </div>
+                <div class="opentick">
+                    <div class="t1"><i class="fa-regular fa-circle-check"></i></div>
+                    <div class="tic1"><span>Open Tickets</span>
+                        <h3>28</h3>
+                    </div>
+                </div>
+                <div class="responce">
+                    <div class="t2"><i class="fa-regular fa-clock"></i></div>
+                </div>
+                <div class="tic2"><span>Responce Time</span>
+                    <h3>1 Day</h3>
+                </div>
+            </div>
+            <div class="graph2">
+                <img src="dashbordimg/complete task.svg" width="390px">
+            </div>
+        </div>
+
+    </div>
+    <div class="countries">
+        <div class="salecont">
+            <div class="sale">
+                <h3>Sales by Countries</h3>
+                <p>Monthly Sales Overview</p>
+            </div>
+            <div class="united">
+                <div class="flagu">
+                    <img src="dashbordimg/united-8.svg">
+                    <div class="unit">
+                        <h2>$8,567k</h2>
+                        <p>United states</p>
+                    </div>
+
+                    <div class="per">
+                        <i class="fa-solid fa-angle-up"></i><span>25.8%</span>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="brazil">
+                <div class="flagb">
+                    <img src="dashbordimg/brazil 9.svg">
+                    <div class="braz">
+                        <h2>$2,415k</h2>
+                        <p>Brazil</p>
+                   </div>
+                    <div class="per1">
+                        <i class="fa-solid fa-chevron-down"></i><span>6.2%</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="india">
+                <div class="flagi">
+                    <img src="dashbordimg/India.svg">
+                    <div class="India">
+                        <h2>$865k</h2>
+                        <p>India</p>
+                    </div>
+
+                    <div class="per2">
+                        <i class="fa-solid fa-angle-up"></i><span>12.4%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="AS">
+                <div class="flagA">
+                    <img src="dashbordimg/as.svg">
+                    <div class="as">
+                        <h2>$745k</h2>
+                        <p>Australia</p>
+                    </div>
+
+                    <div class="per3">
+                        <i class="fa-solid fa-chevron-down"></i><span>11.9%</span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="france">
+                <div class="flagf">
+                    <img src="dashbordimg/france.svg">
+                    <div class="France">
+                        <h2>$45</h2>
+                        <p>France</p>
+                    </div>
+
+                    <div class="per4">
+                        <i class="fa-solid fa-angle-up"></i><span>16.2%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="china">
+                <div class="flagc">
+                    <img src="dashbordimg/china.svg">
+                    <div class="China">
+                        <h2>$12k</h2>
+                        <p>China</p>
+                    </div>
+
+                    <div class="per5">
+                        <i class="fa-solid fa-angle-up"></i><span>14.8%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="totaler">
+            <div class="Errning">
+                <h3>Total Earning</h3>
+                <div class="errr">
+                    <h1>87%</h1>
+                    <div class="green">
+                        <i class="fa-solid fa-angle-up"></i><span>25.8%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="imagg">
+                <img src="dashbordimg/proline.svg" height="260px" width="260px">
+                <div class="totall">
+                    <div class="Dol">
+                        <div class="dd">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                        </div>
+                        <h3>Total Sales</h3>
+                        <p>Refund</p>
+                        <h2>+$98</h2>
+                    </div>
+
+                </div>
+                <div class="revenuee">
+                    <div class="Dol1">
+                        <div class="dd1">
+                            <i class="fab fa-paypal"></i>
+                        </div>
+                        <h3>Total Revenue</h3>
+                        <p>Client Payment </p>
+                        <h2>+$126</h2>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!--monthly start-->
+        <div class="monthly">
+           <div class="text4">
+                <h3>Monthly Campaign State</h3>
+                <p>8.52k Social Visiters</p>
+            </div> 
+            <div class="box1">
+                <div class="email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <span>Emails</span>
+                </div>
+                <div class="box2">
+                    <div class="box3">
+                    <h3>12,346</h3>
+                    </div>
+                    <h5>0.3%</h5>
+                </div>
+            </div>
+            <div class="box4">
+                <div class="falink">
+                    <i class="fa-solid fa-link"></i>
+                    <span>Opened</span>
+                </div>
+                <div class="box5">
+                    <div class="box6">
+                        <h3>8,734</h3>
+                    </div>
+                    <h5>2.1%</h5>
+                </div>
+            </div>
+            <div class="box7">
+                <div class="click">
+                    <i class="fa-solid fa-computer-mouse"></i>
+                    <span>Clicked</span>
+                </div>
+                <div class="box8">
+                    <div class="box9">
+                        <h3>967</h3>
+                    </div>
+                    <h5>1.4%</h5>
+                </div>
+            </div>
+            <div class="box10">
+                <div class="users">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>Subscribe</span>
+                </div>
+                <div class="box11">
+                    <div class="box12">
+                        <h3>345</h3>
+                    </div>
+                    <h5>8.5k</h5>
+                </div>
+            </div>
+            <div class="box13">
+                <div class="complaints">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>Complaints</span>
+                </div>
+                <div class="box14">
+                    <div class="box15">
+                        <h3>10</h3>
+                    </div>
+                    <h5>1.5%</h5>
+                </div>
+            </div>
+            <div class="box16">
+                <div class="unsubscribe">
+                    <i class="fa-regular fa-circle-xmark"></i>
+                    <span>Unsubscribe</span>
+                </div>
+                <div class="box17">
+                    <div class="box18">
+                        <h3>86</h3>
+                    </div>
+                    <h5>0.8%</h5>
+                </div>
+            </div>
+        </div>
+        <!--monthly end-->
+    </div>
+    <!--source visited-->
+    <div class="last">
+    <div class="visit">
+        <div class="source">
+            <h3>Source Visits</h3>
+            <p>38.4k Visitors</p>
+        </div>
+        <div class="shadoww">
+        <div class="shadow">
+            <i class="fa-regular fa-circle"></i>
+        </div>
+            <div class="A">
+            <h5>Direct Source</h5>
+            <small>Direct link click</small>
+            </div>
+        </div>
+        <div class="d1">
+        <div class="kk">
+            <h3>1.2k</h3>
+        </div>
+        <div class="nnmb">
+            <h5>+4.2%</h5>
+        </div>
+        </div>
+        <div class="social">
+            <div class="global">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="text5">
+                <h5>Social Network</h5>
+                <small>Social Channels</small>
+            </div>
+            <div class="nnm">
+                <div class="kk1">
+                <h3>31.5k</h3>
+                </div>
+                <div class="kk2">
+                    <h5>+8.2%</h5>
+                </div>
+            </div>
+        </div>
+        <div class="emailnews">
+            <div class="emailenvo">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="text6">
+                <h5>Email Newsletter</h5>
+                <small>Mail Campaigns</small>
+            </div>
+            <div class="nnm1">
+                <div class="kk3">
+                <h3>893</h3>
+                </div>
+                <div class="kk4">
+                    <h5>+2.4%</h5>
+                </div>
+            </div>
+        </div>
+        <div class="referal">
+            <div class="extrnal">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <div class="text7">
+                <h5>Referrals</h5>
+                <small>Impact Radius Visits</small>
+            </div>
+            <div class="nnm2">
+                <div class="kk5">
+                <h3>342</h3>
+                </div>
+                <div class="kk6">
+                    <h5>-0.4%</h5>
+                </div>
+            </div>
+        </div>
+        <div class="advt">
+            <div class="aadvt">
+                <div class="dis">
+                    <div class="discount">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <div class="text8">
+                    <h5>ADVT</h5>
+                    <small>Google ADVT</small>
+                    </div>
+                </div>
+                <div class="k">
+                <div class="kk7">
+                    <h3>2.15k</h3>
+                </div>
+                <div class="kk8">
+                    <h5>+9.1%</h5>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="other">
+            <div class="oth">
+                <div class="star">
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="ttt">
+                <h3>Other</h3>
+                <small>Many Sources</small>
+                </div>
+            </div>
+            <div class="text9">
+                <div class="kk9">
+                    <h3>12.5k</h3>
+                </div>
+                <div class="kk10">
+                    <h5>+6.2%</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="project">
+        <div class="proj">
+           <div class="input">
+            <h2>Project</h2>
+           </div>
+           <div class="input3">
+           <div class="input2">
+            <span>Search:</span>
+           </div>
+           <div class="inputype">
+            </div>
+        </div>
+        </div>
+        <table style=" width: 670px; text-align: center;">
+            <tr>
+                 
+                <th colspan="2" style="text-align: right;"><input type="checkbox"></th>
+                <th>name</th>
+                <th>Leader</th>
+                <th>Team</th>
+                <th>Status</th>
+            </tr>
+            <!-- website SCO -->
+            <tr>
+                <th><i class="fa-solid fa-magnifying-glass-plus"></i></th>
+                <th><input type="checkbox"></th>
+                <td><div class="webSCE">
+                    <div class="webSCE1">
+                        <span>WS</span>
+                    </div>
+                    <div class="webSCE2">
+                        <span>website SCO</span>
+                        <p>10 may 2021</p>
+                    </div>
+                </div></td>
+                <td>Eileen</td>
+                <td><div class="teamimage">
+                    <div class="teamimg">
+                        <img src="dashbordimg/asset 14.png" height="30px" width="30px">
+
+                    </div>
+                    <div class="teamimg2">
+                        <img src="dashbordimg/asset 15.png" height="30px" width="30px">
+                        
+                    </div>
+                    <div class="teamimg3">
+                       <img src="dashbordimg/asset 1.png" height="30px" width="30px"> 
+                    </div>
+                    <div class="teamimg4">
+                        <img src="dashbordimg/asset 16.png" height="30px" width="30px">
+                    </div>
+                </div></td>
+                <td><div class="status">
+                    <div class="sta1">
+
+                    </div>
+                    <div class="sta2">
+                        
+                    </div>
+                    <div class="sta3">
+                        <p>38%</p>
+                    </div>
+                </div></td>
+            </tr>
+            
+            <tr>
+                <th><i class="fa-solid fa-magnifying-glass-plus"></i></th>
+                <th><input type="checkbox"></th>
+                <td><div class="socialbanner">
+                    <div class="socialbn1">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="socialbn2">
+                        <span>Social banner</span>
+                        <p>03 jan 2021</p>
+                    </div>
+                </div></td>
+                <td>Owen</td>
+                <td><div class="social-image">
+                    <div class="socialimage1">
+                        <img src="dashbordimg/asset 18.png" height="30px" width="30px">
+
+                    </div>
+                    <div class="socialimage2">
+                        <img src="dashbordimg/asset 14.png" height="30px" width="30px">
+                    </div>
+                    <td>
+                        <div class="staA">
+                            <div class="sta4">
+        
+                            </div>
+                            <div class="sta5">
+                                
+                            </div>
+                            <div class="sta6">
+                                <p>45%</p>
+                            </div>
+                    </td>
+                </div></td>
+            </tr>
+            <!-- logo designs -->
+            <tr>
+                <th><i class="fa-solid fa-magnifying-glass-plus"></i></th>
+                <th><input type="checkbox"></th>
+                <td><div class="logo-design">
+                    <div class="logodsg1">
+                        <img src="dashbordimg/asset 19.png" height="30px" width="30px">
+                    </div>
+                    <div class="logodsg2">
+                        <span>Logo designs</span>
+                        <p>12 aug 2021</p>
+                    </div></td>
+                    <td>Keith</td>
+                    <td><div class="logoimg">
+                        <div class="logoimg1">
+                            <img src="dashbordimg/asset 3.png" height="30px" width="30px">
+    
+                        </div>
+                        <div class="logoimg2">
+                            <img src="dashbordimg/asset 20.png" height="30px" width="30px">
+                            
+                        </div>
+                        <div class="logoimg3">
+                           <img src="dashbordimg/asset 21.png" height="30px" width="30px"> 
+                        </div>
+                        <div class="logoimg4">
+                            <img src="dashbordimg/asset 22.png" height="30px" width="30px">
+                        </div>
+                    </div></td>
+                    <td><div class="staB">
+                        <div class="sta7">
+    
+                        </div>
+                        <div class="sta8">
+                            
+                        </div>
+                        <div class="sta9">
+                            <p>92%</p>
+                        </div>
+                    </div></td>
+            </tr>
+            <!-- ios app design -->
+            <tr>
+                <th><i class="fa-solid fa-magnifying-glass-plus"></i></th>
+                <th><input type="checkbox"></th>
+                <td><div class="iosdsg">
+                    <div class="iosdesign1">
+                        <img src="dashbordimg/asset 19.png" height="30px" width="30px">
+                    </div>
+                    <div class="ios-design-2">
+                        <span>ios App design</span>
+                        <p>19 april 2021</p>
+                    </div></td>
+                    <td>Merline</td>
+                    <td><div class="ios-imag">
+                        <div class="isimage1">
+                            <img src="dashbordimg/asset 1.png" height="30px" width="30px">
+    
+                        </div>
+                        <div class="isimage2">
+                            <img src="dashbordimg/asset 16.png" height="30px" width="30px">
+                            
+                        </div>
+                        <div class="isimage3">
+                           <img src="dashbordimg/asset 3.png" height="30px" width="30px"> 
+                        </div>
+                        <div class="isimage4">
+                            <img src="dashbordimg/asset 0.png" height="30px" width="30px">
+                        </div>
+                    </div></td>
+                    <td><div class="staC">
+                        <div class="sta10">
+    
+                        </div>
+                        <div class="sta11">
+                            
+                        </div>
+                        <div class="sta12">
+                            <p>56%</p>
+                        </div>
+                    </div></td>
+            </tr>
+            
+            <!-- figma designs -->
+            <tr>
+                <th><i class="fa-solid fa-magnifying-glass-plus"></i></th>
+                <th><input type="checkbox"></th>
+           
+            <td><div class="figma">
+                <div class="figma1">
+                    <img src="dashbordimg/asset 23.png" height="30px" width="30px">
+                </div>
+                <div class="figma2">
+                    <span>Figma Dasboards</span>
+                    <p>8 april 2021</p>
+                </div></td>
+                <td>Harmonia</td>
+                <td><div class="figmaimag">
+                    <div class="figimg1">
+                        <img src="dashbordimg/asset 2.png" height="30px" width="30px">
+
+                    </div>
+                    <div class="figimg2">
+                        <img src="dashbordimg/asset 1.png" height="30px" width="30px">
+                        
+                    </div>
+                    <div class="figimg3">
+                       <img src="dashbordimg/asset 22.png" height="30px" width="30px"> 
+                    </div>
+                    
+                </div></td>
+                <td><div class="staD">
+                    <div class="sta13">
+
+                    </div>
+                    <div class="sta14">
+                        
+                    </div>
+                    <div class="sta15">
+                        <p>25%</p>
+                    </div>
+                </div></td>
+            </tr>
+        </table> 
+        <footer> 
+        <div class="footer">
+            <div class="footer-1">
+                <p> Showing 1 to 5 of 10 entries</p>
+            </div>
+            <div class="footer-2">
+                <div class="foot-1">
+                    <p>previous</p>
+                </div>
+                <div class="foot-2">
+                    <p>1</p>
+                </div>
+                <div class="foot-3">
+                    <p>2</p>
+
+                </div>
+                <div class="foot-4">
+                    <p>next</p>
+                </div>
+                
+            </div>
+            
+        </div>  
+    </footer>
+
+    </div>
+    </div>
+    </div>
+    <!-- <div class="name">
+        <div class="ch">
+            <div class="check">
+                <input type="checkbox" class="ckeck">
+            </div>
+            <div class="nm">
+                <h5>Name</h5>
+            </div>
+            <div class="arrow">
+                <div class="uparrow">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+                    <div class="down"><i class="fa-solid fa-angle-down"></i>
+                    </div>
+            </div>
+            <h5>LEADER</h5>
+            <div class="arrow1">
+                <div class="uparrow1">
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+                    <div class="down1"><i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <h5>TEAM</h5>
+            <h5>STATUS</h5>
+        </div>
+    </div>
+    <hr>
+    <div class="second">
+        <div class="plus">
+            
+        </div> -->
+    </div>
+    <!--source visite-->
+    </div>
+
+    </div>
+    </div>
+
+</div>
+</body>
+
+</html>
