@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f7fa;
+}
+.main{
+    display: grid;
+    height: 1500px;
+    width: 1400px;
+    grid-template-columns: 300px 700px 150px 150px;
+    grid-template-rows: 160px 160px 160px 160px 160px;
+    gap: 5px;
+    text-align: center;
+    color: black;
+    font-weight: 30px;
+}
+.menu1{
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.menu2{
+    background-color: lightgreen;
+    grid-column-start:2;
+    grid-column-end: 5;
+}
+.menu3{
+    background-color: lightblue;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.menu4{
+    background-color: lightcoral;
+}
+.menu5{
+    background-color:lightsalmon;
+}
+.menu6{
+    background-color: lightseagreen;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    width: 500px;
+}
+.menu7{
+    background-color: lightcyan;
+    grid-column-start: 3;
+    grid-column-end:5;
+}
+.menu8{
+    background-color: lightslategray;
+}
+.menu9{
+    background-color: limegreen;
+}
+.menu10{
+    background-color: lightblue;
+}
+.menu11{
+    background-color:lightsalmon;
+}
+.menu12{
+    background-color: lightcoral;
+}
+
