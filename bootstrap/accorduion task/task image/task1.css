@@ -1,0 +1,13 @@
+.custom_wrapper .accordion-button{
+    border-radius: 50px;
+    background-color:blueviolet;
+}
+.custom_wrapper .accordion-button{
+    box-shadow: none;
+}
+.custom_wrapper .accordion-button:focus{
+  background-color: blueviolet;
+}
+.custom_wrapper .accordion-item{
+    border: 0;
+}

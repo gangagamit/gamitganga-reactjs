@@ -1,0 +1,8 @@
+h1{
+   font-size: 100px;
+    text-align: center;
+    background-size: contain;
+    background: url(image/burger1.jpg);
+    -webkit-background-clip: text;
+    color: transparent;    
+}

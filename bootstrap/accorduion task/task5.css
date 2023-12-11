@@ -1,0 +1,14 @@
+.wrapper2 .accordion-item p::before{
+    content: '\002B';
+    position: relative;
+    right: 0rem;
+ }
+ .wrapper2 .accordion-header
+ {
+    background-color: rgb(115, 0, 230);
+ }
+ .container{
+    height: 400px;
+    margin-top: 10px;
+    background-color: rgb(214, 214, 194);
+ }

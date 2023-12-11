@@ -1,0 +1,18 @@
+
+body{
+    background:linear-gradient(to right,rgb(141, 141, 215), #ff8080)
+}
+.custom{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+.custom .accordion-button:focus{
+    background-color: 	rgb(29, 29, 22);
+}
+.custom .accordion-button{
+    background-color: black;
+}
+.custom .accordion-body{
+    background:linear-gradient(to right,rgb(141, 141, 215), #ff8080) 
+}

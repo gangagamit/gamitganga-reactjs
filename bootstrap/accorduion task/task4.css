@@ -1,0 +1,14 @@
+
+.accordion{
+    height: 800px;
+    width: 800px;
+    margin-left: 200px;
+}
+.wrapper1 .accordion-item p::before{
+    content: '\002B';
+    position: relative;
+    right: 0rem;
+ }
+.wrapper1{
+    background: rgb(255, 51, 51);
+}

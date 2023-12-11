@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to right,#ff9999,#ff6666);
+}
+.accordion{
+    width: 700px;
+    background: linear-gradient(to right,#ff6666, #ff9999);
+}
+
+.wrapper .accordion-button{
+    background-color: #fff;
+}
+.wrapper .accordion-button:focus{
+    background-color: #fff;
+}
+.wrapper .accordion-item p::after{
+   content: '\002B';
+   position: relative;
+   right: -10rem;
+}
+/* .wrapper .accordion-item p:active{
+    content: '\2212';
+    position: relative;
+    right: -10rem;
+ } */
+
+
