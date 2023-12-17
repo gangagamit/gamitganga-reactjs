@@ -1,0 +1,17 @@
+.container{
+   position: relative;
+   height: 200px;
+   width: 200px;
+}
+.image{
+   height: 200px;
+   width: 300px;
+}
+.container .btn{
+    position: absolute;
+    left: 120px;
+    top: 85px;
+}
+.container .btn:hover{
+    background-color: black;
+}
