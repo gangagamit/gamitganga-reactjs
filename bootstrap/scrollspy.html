@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>scrollspy</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 fix-top">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+            <h4 id="scrollspyHeading1">First heading</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam commodi aspernatur vitae laudantium similique saepe amet, cupiditate, nobis, odit obcaecati modi magni fugit quia culpa quisquam dolor placeat. Mollitia, nesciunt!</p>
+            <h4 id="scrollspyHeading2">Second heading</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo molestias est nihil illo eveniet iusto temporibus exercitationem. Fugit eos similique aut fuga optio harum ipsum consequatur, laudantium consequuntur accusantium.</p>
+            <h4 id="scrollspyHeading3">Third heading</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, quas ex? Ullam perspiciatis sequi molestias natus aliquid nam aperiam nobis, harum, tempore ea fuga perferendis rerum provident ad accusantium quos?</p>
+            <h4 id="scrollspyHeading4">Fourth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perferendis aperiam, placeat vero ducimus odio excepturi? Reiciendis, enim, unde, dolore officia fugit blanditiis nam excepturi voluptatem autem molestias non. Voluptatum.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime quos perspiciatis nulla amet vitae! Earum ex amet, distinctio facere mollitia eaque numquam assumenda autem vero, quidem provident soluta, rerum deserunt.</p>
+
+          </div> -->
+          <div class="row">
+            <div class="col-4">
+              <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link" href="#item-1">Item 1</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                  </nav>
+                  <a class="nav-link" href="#item-2">Item 2</a>
+                  <a class="nav-link" href="#item-3">Item 3</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                    <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-8">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div id="item-1">
+                  <h4>Item 1</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas neque voluptatibus dolorum voluptates molestiae fugit id ratione a aliquid earum odit in labore, est similique dolorem enim veniam. Quia ad minus itaque labore at voluptates nam, explicabo amet distinctio quasi sint harum, quibusdam illum, delectus animi quos iusto hic molestias error quod totam corporis. Natus distinctio perspiciatis laborum quas modi. Facilis, eum? Quibusdam voluptatem, animi dolor adipisci neque illum vitae similique id itaque soluta, eius nihil nam necessitatibus nulla quae, labore aliquam repudiandae accusantium maxime fugiat. Sint, in, sunt ducimus dolor, dolorum reiciendis doloribus commodi sed minus debitis excepturi? Asperiores.</p>
+                </div>
+                <div id="item-1-1">
+                  <h5>Item 1-1</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, doloremque autem. Modi delectus quae ad, voluptates, autem consequuntur totam dicta, at saepe reprehenderit earum officiis quisquam? Fugiat, praesentium perferendis labore reprehenderit rerum maiores nostrum provident eligendi modi accusantium quas maxime commodi? Illo repellendus voluptate ducimus minus iure incidunt asperiores alias qui voluptatem dolore totam autem cumque beatae reiciendis quidem facere, consequuntur fugiat repudiandae, sit placeat et pariatur nesciunt quis. Ad provident commodi ipsam consequatur facere deserunt? Nesciunt, perspiciatis eaque maiores fugiat, provident ullam molestias doloremque debitis deserunt quaerat, ad repellendus autem corrupti unde quae atque dolor itaque ea repudiandae id!</p>
+                </div>
+                <div id="item-1-2">
+                  <h5>Item 1-2</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia magnam doloribus veniam, modi minus rem a quasi, laudantium aliquam quod sit minima. Placeat modi labore esse eaque illo quisquam ipsam ad dicta accusantium corrupti reprehenderit optio, quae pariatur assumenda laboriosam quidem facilis maxime aut aliquam soluta dignissimos rerum explicabo tempore. Culpa, dolorum alias nulla deleniti, qui amet excepturi labore suscipit animi ea minus. Dolor optio fugiat voluptas, soluta saepe cumque laudantium? Unde dignissimos sint aut praesentium accusamus asperiores, voluptatem natus sit repudiandae nemo inventore maiores aliquam voluptas voluptatibus itaque ut. Veniam esse vel reiciendis consectetur dolore laudantium alias hic!</p>
+                </div>
+                <div id="item-2">
+                  <h4>Item 2</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat assumenda inventore quam, cupiditate ratione laborum temporibus necessitatibus perspiciatis iure odit. Ut dicta eveniet eius cum culpa cumque totam quam esse dolores incidunt quisquam consequuntur quas suscipit, perferendis sapiente possimus, blanditiis sequi libero soluta minus porro, voluptate ad. Possimus distinctio, minima doloribus maxime numquam vitae, sit quia sunt dolores aliquam dolor. Eos voluptatem provident velit consectetur enim dolor porro impedit maxime adipisci aliquam suscipit, recusandae, ratione ut, beatae accusantium vitae quisquam saepe eum hic nostrum libero optio debitis repudiandae. Alias nesciunt ex officiis at perferendis? Quasi illum nemo minus labore aliquid.</p>
+                </div>
+                <div id="item-3">
+                  <h4>Item 3</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci mollitia temporibus repudiandae aliquam, fuga nobis quas ut, facilis excepturi est sequi hic enim quasi id ducimus consequatur voluptates perferendis quaerat sed possimus aliquid labore nam perspiciatis. Dolor modi enim amet est tempore, similique vel ea fuga. At, quos laborum nemo, quaerat omnis in excepturi molestiae sint consequatur vero qui enim cupiditate, animi accusamus. Voluptate sit nisi saepe fuga vitae doloremque esse et sint facere, quia sapiente velit magnam. Similique, enim. Possimus neque inventore, deleniti, odio vero minima nisi illo dicta et esse corporis? Inventore perferendis dignissimos nihil, similique rem iure?</p>
+                </div>
+                <div id="item-3-1">
+                  <h5>Item 3-1</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi harum et nam, officia obcaecati quod dolore dicta nesciunt, officiis maiores voluptatum non atque ipsa ratione laboriosam fugit cupiditate consectetur, aperiam vero veritatis neque similique a molestiae. Rerum eius totam officiis ratione fuga aliquam corrupti vitae at? Dolor veritatis, illum reprehenderit ad eius, sunt neque voluptatem ea officia laudantium possimus commodi laboriosam voluptates blanditiis autem eos amet culpa maxime maiores, soluta voluptate id inventore ex deleniti! Asperiores numquam ad omnis, adipisci amet aliquam ex harum magnam ipsam quaerat aperiam, hic voluptate, nisi necessitatibus dolores molestias repudiandae eaque odio impedit. Soluta?</p>
+                </div>
+                <div id="item-3-2">
+                  <h5>Item 3-2</h5>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci,Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eius accusamus architecto, similique non fugiat voluptas mollitia sint necessitatibus alias, modi quidem aut facilis nobis illo consectetur ipsam assumenda nostrum!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
