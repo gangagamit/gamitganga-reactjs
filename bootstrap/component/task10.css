@@ -1,0 +1,10 @@
+#box{
+    height: 150px;
+    width: 450px;
+    border-radius: 10px;
+    background: linear-gradient(to right,#FBAA60,#FBAA60,#F85C70,#D68FB0,#8155BA);  
+}
+.image{ 
+   position: relative;
+   top: -20px;
+}
