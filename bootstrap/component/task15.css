@@ -1,0 +1,16 @@
+
+
+.box{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #274472;
+    outline: 25px solid #2E8BC0;
+    margin-top: 10px;
+}
+button{
+    height: 40px;
+    width: 250px;
+    background-color: hsl(199,93%,49%);
+
+}

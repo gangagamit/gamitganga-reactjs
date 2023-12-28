@@ -1,0 +1,8 @@
+@import 'variable';
+.box1
+{
+    height: $h-1;
+    width: $w-1;
+    background-color: $bg-1;
+    border: $border-1;
+}
