@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.box1 {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.box2 {
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.box3 {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+}/*# sourceMappingURL=task1.css.map */

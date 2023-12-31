@@ -1,0 +1,28 @@
+@import '../variable/variables';
+
+.container{
+    display: $flex;
+    justify-content: $j-c-1;
+    justify-content: $j-c-e;
+}
+.box1{
+    height: $h-1;
+    width: $w-1;
+    background-color: $bg-1;
+    border: $border-1;
+    padding: $p-4;
+}
+.box2{
+    height: $h-1;
+    width: $w-1;
+    background-color: $bg-2;
+    border: $border-1;
+    padding: $p-4;
+}
+.box3{
+    height: $h-1;
+    width: $w-1;
+    background-color: $bg-1;
+    border: $border-1;
+    padding: $p-4;
+}

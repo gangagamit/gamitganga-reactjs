@@ -1,0 +1,18 @@
+@import '../variable/variables';
+
+
+nav{
+    @at-root
+    ul{
+       display: $flex;
+       justify-content: $j-c-e;
+    }
+    @at-root
+     li{
+        list-style-type: none;
+     }
+     @at-root
+    li a{
+        text-decoration: none;
+     }
+}

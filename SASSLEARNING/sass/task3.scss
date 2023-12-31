@@ -1,0 +1,15 @@
+@import '../variable/variables';
+
+@mixin box{
+    height: $h-1;
+    width: $w-1;
+    background-color: $bg-2;
+    border: $border-1;
+}
+
+.box1{
+    @include box;
+}
+.box2{
+    @include box;
+}
