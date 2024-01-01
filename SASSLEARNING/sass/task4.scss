@@ -1,0 +1,47 @@
+@import '../variable/variables';
+
+@each $a in (container){
+    .#{$a}
+    {
+        display: $flex;
+        justify-content: $j-c-a;
+    }
+}
+
+// @each $i in (box1,box2)
+
+// {
+//     .#{$i}
+//     {
+//         font-weight: $i;
+//         height: $h-1;
+//         width: $w-1;
+//         border: $border-1;
+//         border-radius: $bradius-1;
+//         background-color: $bg-5;
+//     }
+// }
+
+// $list:(box1,box2);
+
+// @each $a in $list{
+//     .#{$a}
+//     {
+//                 height: $h-1;
+//                 width: $w-1;
+//                 border: $border-1;
+//                 border-radius: $bradius-1;
+//                 background-color: $bg-4;
+//     }
+// }
+
+$list:((box1,bold,50px,green),(box2,italic,50px,red));
+
+@each $name,$style,$size ,$color in $list{
+    .#{$name}
+    {
+        font-weight: $style;
+        font-size: $size;
+        color: $color;
+    }
+}

@@ -9,6 +9,7 @@
 
 .box1{
     @include box;
+    background-color: $bg-3;
 }
 .box2{
     @include box;

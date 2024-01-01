@@ -6,6 +6,8 @@ nav{
     ul{
        display: $flex;
        justify-content: $j-c-e;
+       background-color: $bg-2;
+       color: $text-c-1;
     }
     @at-root
      li{
