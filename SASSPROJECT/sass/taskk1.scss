@@ -1,7 +1,8 @@
 @import '../variable/variable.scss';
 
-
-
+body{
+    background-image: url('../SassProject/images/logo.png');
+}
 nav{
     display: $flex;
     justify-content: $justify-b;

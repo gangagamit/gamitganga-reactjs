@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: crimson;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}/*# sourceMappingURL=task2.css.map */
