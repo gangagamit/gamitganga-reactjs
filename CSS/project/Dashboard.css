@@ -56,20 +56,22 @@ aside {
     padding: 15px;
     width: 1050px;
     display: flex;
-    justify-content: space-between;
     margin-left: 300px;
     background-color: white;
     box-shadow: 0.1px 1px #ffffff;
     /* position: fixed; */
+    justify-content: space-between;
     
 }
-.lang{
-    display:flex;
-    gap: 20px;
+.search{
+    color: #5d596c;
 }
-nav{
+.ul-item ul{
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+}
+.ul-item ul li i{
+    color: #5d596c;
 }
 .slide{
     height: 300px;

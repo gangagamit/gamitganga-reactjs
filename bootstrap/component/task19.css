@@ -1,4 +1,6 @@
 
-.dropdown-toggle ::after{
+.dropdown .btn::after{
     content: \276F;
+    position: absolute;
+    
 }
