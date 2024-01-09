@@ -1,8 +1,8 @@
 @import '../variable/variable.scss';
 
-body{
-    background-image: url('../SassProject/images/logo.png');
-}
+// body{
+//     background-image: url('../SassProject/images/logo.png');
+// }
 nav{
     display: $flex;
     justify-content: $justify-b;
@@ -29,3 +29,19 @@ nav{
 .button1{
     padding: $p2;
 }
+.page{
+    position: relative;
+    color: $textcolor-1;
+}
+.page1{
+    position: absolute;
+    top:-200px;
+    right: -550px;
+}
+.pag-1{
+    display: $flex;
+    position: absolute;
+    top: -165px;
+    right: -550px;
+}
+

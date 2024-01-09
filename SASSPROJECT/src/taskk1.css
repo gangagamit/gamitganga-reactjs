@@ -26,4 +26,22 @@ nav a {
 
 .button1 {
   padding: 10px;
+}
+
+.page {
+  position: relative;
+  color: white;
+}
+
+.page1 {
+  position: absolute;
+  top: -200px;
+  right: -550px;
+}
+
+.pag-1 {
+  display: flex;
+  position: absolute;
+  top: -165px;
+  right: -550px;
 }/*# sourceMappingURL=taskk1.css.map */
