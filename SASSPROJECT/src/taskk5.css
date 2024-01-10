@@ -50,28 +50,6 @@ nav a {
   right: -550px;
 }
 
-em {
-  color: rgb(244, 115, 28);
-}
-
-.heading {
-  display: flex;
+.navbar-1 {
   justify-content: center;
-}
-
-.form-1 {
-  display: flex;
-  justify-content: center;
-}
-
-button {
-  background-color: rgb(244, 115, 28);
-  color: white;
-  border: 0;
-  padding: 15px;
-}
-
-.btn-1 {
-  display: flex;
-  justify-content: center;
-}/*# sourceMappingURL=taskk3.css.map */
+}/*# sourceMappingURL=taskk5.css.map */
