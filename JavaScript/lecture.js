@@ -12,10 +12,17 @@ console.log(typeof num2);
     newelement.textContent = "Hello World";
     document.body.appendChild(newelement);
     
-    var newElement = document.createElement("p", Option);
+    // var newElement = document.createElement("marquee", Option);
+    // newElement.textContent = "learn javascript";
+    // document.body.appendChild(newElement);
+}
+
+{
+    var newElement = document.createElement("marquee", Option);
     newElement.textContent = "learn javascript";
     document.body.appendChild(newElement);
 }
+
 
 
 //Template Literals
