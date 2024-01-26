@@ -113,51 +113,42 @@ i)
      console.log(x); --> ans:-2
 }
 */
-/*
 
-4)
+
+
   {
       var P = 1
-     var Q = 01
+     var Q = 0.1
      var a = p == q;
-     var a = 1 == 01;
+     var a = 1 == 0.1;
      console.log(a);
   }
 
   {
      var P = 1
-     var q = 01
+     var q = 0.1
 
-     var a = 1 === 01;
+     var a = 1 === 0.1;
      console.log(a);
  }
 
  {
           var p = "1"
-         var q = 01
+         var q = 0.1
           var a = "p" == q;
-          var a = "1" == 01;
+          var a = "1" == 0.1;
          console.log(a);
      }
 
 {
     var p = "1"
-   var q = "01"
+   var q = "0.1"
     var a = "p" == "q";
-    var a = "1" == "01";
+    var a = "1" == "0.1";
    console.log(a);
 
 }
 
-  {
-      var p = "1"
-    var q = 0
-      var r = 1
-
-      var s = "1" == 0 + 1
-     console.log(s);
-     console.log(typeof(s));
-  }
 
   {
      var p = "1"
@@ -195,7 +186,7 @@ i)
       console.log(s);
       console.log(typeof(s));
  }
- */
+ 
 /*
 5)
 {
@@ -223,31 +214,56 @@ i)
     alert(string1 + intvalue);
 }
 */
- {
-     var mark = 50
-     var marks = (mark < 35) ? "fail" : "pass";
-     var marks = (50 < 35) ? "fail" : "pass";
-     console.log(marks);
- }
+//  {
+//      var mark;
+//      var marks = (mark < 35) ? "fail" : "pass";
+//     //  var marks = (50 < 35) ? "fail" : "pass";
+//      console.log(marks);
+//  }
+// {
+//     var a = 1
+//      var b = 0.1
+//       var c = a == b;
+//       console.log(c);
+// }
+// {
+//     var a = "1"
+//     var b = 0.1
+//      var c = a == b;
+//      console.log(c);
+// }
+// {
 
+//     var a = 1
+//     var b = 0.1
+//      var c = a === b;
+//      console.log(c);
+// }
+// {
 
-    function height()
-    {
-    var height = 123.56;
-    var type = (height>=190) ? "tall" : "short";
-    console.log(type)
-    }
+//     var a = "1"
+//     var b = "0.1"
+//      var c = a == b;
+//      console.log(c);
+// }
+
+    // function height()
+    // {
+    // var height = 123.56;
+    // var type = (height>=190) ? "tall" : "short";
+    // console.log(type)
+    // }
 //10
 
-{
-    var a = "1";
-    var b = 5;
+// {
+//     var a = "1";
+//     var b = 5;
     
 
-    console.log(typeof(a));
-    console.log(typeof(b));
-     var c = a + b;
-     console.log(c);
-     console.log(typeof(c))
+//     console.log(typeof(a));
+//     console.log(typeof(b));
+//      var c = a + b;
+//      console.log(c);
+//      console.log(typeof(c))
   
-}
+// }
