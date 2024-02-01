@@ -146,4 +146,3 @@
     console.log(m5);
     console.log(typeof(m5));
 }
-//Map 

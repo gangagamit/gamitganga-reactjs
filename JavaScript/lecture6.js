@@ -89,6 +89,14 @@
     console.log(Number(a));
     console.log(String(a));
     console.log(Boolean(a));
+    let b = "11"
+    console.log(Number(b));
+    console.log(String(b));
+    console.log(Boolean(b));
+    let c = "1"
+    console.log(Number(c));
+    console.log(String(c));
+    console.log(Boolean(c));
 }
 {
     let x = undefined;
