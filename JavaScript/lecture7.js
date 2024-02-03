@@ -5,10 +5,10 @@
     let m2 = Math.PI;
     console.log(m2);
 
-    // let m3 = Math.log2;
-    // console.log(m3);
-    // let m4 = Math.log10;
-    // console.log(m4);
+    // let m3 = Math.log2(140);
+    // console.log2(m3);
+    // let m4 = Math.log10(11);
+    // console.log10(m4);
 }
 //Math round
 {
@@ -124,4 +124,20 @@
     console.log(a5);//45
     let a4 = Math.random(2)*10;
     console.log(a4);
+}
+//Math sin
+{
+    let s1 = Math.sin(30*3.14/180);
+    console.log(s1);
+
+    let s2 = Math.sin(180*3.14/180);
+    console.log(s2);
+}
+//Math cos
+{
+    let s3 = Math.cos(30*3.14/180);
+    console.log(s3);
+
+    let s4 = Math.cos(180*3.14/180);
+    console.log(s4);
 }

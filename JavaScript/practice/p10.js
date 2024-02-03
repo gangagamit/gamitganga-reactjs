@@ -30,10 +30,10 @@
     // console.log(typeof f); // 1 object
 }
 {
-    let x = 100;
-    let y = x++;
-    let z = ++x;
+    // let x = 100;
+    // let y = x++;
+    // let z = ++x;
 
-    let n = (x == y) ? z++ : ++z;
+    // let n = (x == y) ? z++ : ++z;
     //console.log(n); console.log thane answer is 103
 }
