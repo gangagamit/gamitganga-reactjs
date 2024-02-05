@@ -40,7 +40,7 @@ console.log(E3);
 }
 //toPrecision
 {
-    let p1 = 1.58624;
+    let p1 = 1.5865;
     console.log(p1);
 
     let p2 = p1.toPrecision(4);
