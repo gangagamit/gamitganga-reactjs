@@ -21,6 +21,7 @@
     animation-duration: 10s;
     animation-delay: 2s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
    
 }
 @keyframes CIRCLE{
@@ -36,17 +37,36 @@
         transform:translateY(15px) ;
     }
 }
-/* .cloud{
+.cloud{
     animation-name: move;
     animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 @keyframes move{
     from{
         transform: translateX(0px);
     }
     to{
-        transform: translateX(900px);
+        transform: translateX(1000px);
     }
-} */
+}
+.cloud-1{
+   
+    margin-left: 1000px;
+    animation-name: move-1;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    }
+
+ @keyframes move-1{
+    to{
+        transform: translate(0px);
+    }
+    from{
+        transform: translateX(-1000px);
+    }
+} 
