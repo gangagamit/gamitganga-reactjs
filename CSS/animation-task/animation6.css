@@ -30,14 +30,16 @@
     }
     50%{
         transform: translateY(-400px);
-        background-color: orange;
-        border: 1px solid orange;
+        background-color: yellow;
+        border: 1px solid yellow;
+        
     }
     100%{
         transform:translateY(15px) ;
     }
 }
 .cloud{
+    color: white;
     animation-name: move;
     animation-duration: 10s;
     animation-timing-function: linear;
@@ -53,7 +55,7 @@
     }
 }
 .cloud-1{
-   
+    color: white;
     margin-left: 1000px;
     animation-name: move-1;
     animation-duration: 10s;
