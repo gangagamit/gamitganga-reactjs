@@ -1,0 +1,11 @@
+.div-1{
+    height: 300px;
+    width: 600px;
+    background-color: purple;
+    margin: auto;
+}
+.div-1:hover{
+    transition-property: all;
+    transition-duration: 2s;
+    transform: scale(1.2);
+}

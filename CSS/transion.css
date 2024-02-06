@@ -14,7 +14,9 @@ body{
     justify-content: space-evenly;
     justify-items: center;
     padding: 10px;
+    height: 600px;
     background-color: rgb(235, 169, 47);
+    margin: auto;
 }
 .div-1
 {
@@ -22,11 +24,12 @@ body{
     width: 300px;
     border: 1px solid white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     background-image: url('image/p1');
+
 }
 .div-1:hover{
-    background-color: red;
+   background-color: red;
 }
 
  .pare-1:hover{
@@ -88,7 +91,7 @@ span{
     width: 300px;
     border: 1px solid white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     background-image: url('image/p2');
 }
 .pere-2:hover{
@@ -141,7 +144,7 @@ span{
     width: 300px;
     border: 1px solid white;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     background-image: url('image/p-4.jpg');
 }
 .pere-3:hover{

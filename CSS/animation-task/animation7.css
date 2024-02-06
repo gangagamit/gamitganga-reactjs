@@ -1,0 +1,11 @@
+.container{
+    background-color: darkblue;
+    height: 300px;
+}
+.div-1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+}

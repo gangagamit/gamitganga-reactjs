@@ -1,0 +1,25 @@
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: darkslateblue;
+    border: 1px solid darkblue;
+    border-radius: 100%;
+    animation-name: circle-1;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle-1{
+  0%{
+    transform: translate(0px);
+  }  
+  50%{
+    transform: translate(300px);
+    border: 20px solid rgb(224, 109, 224);
+  }
+  100%{
+    transform: translate(500px);
+  }
+}
