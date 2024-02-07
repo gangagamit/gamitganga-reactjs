@@ -2,7 +2,13 @@
     background-color: lightgray;
     height: 500px;
     width: 500px;
+    margin: auto;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .circle-1{
@@ -40,8 +46,8 @@
     border-radius: 100%;
     background-color: blue;
     position: absolute;
-    left:50px;
-    top: 50px;
+    left:190px;
+    top: 190px;
     bottom: -300px;
     animation-name: rotate;
     animation-duration: 3s;
