@@ -1,113 +1,75 @@
-.container{
-    background-color: darkblue;
-    height: 800px;
-    position: relative;
-}
-.div-1{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    border-radius: 5px;
-    margin: auto;
-    display: flex;
-    position: absolute;
-    top: -5px;
-    left: 620px;
-    z-index: 1;
-    align-items: center;
-    justify-content: center;
-}
-
-.div-2{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    border-radius: 5px;
-    position: absolute;
-    z-index: 2;
-    top: -5px;
-    left: 620px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.div-3{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    border-radius: 5px;
-    position: absolute;
-    top:-6px;
-    z-index: 3;
-    left: 620px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation-name: box-3;
+body{ 
+    background-color:darkblue; 
+} 
+ 
+.counter-card { 
+    align-items: center; 
+    border-radius: 10px; 
+    display: flex; 
+    height: 180px; 
+    justify-content: center; 
+    width: 180px; 
+    margin: auto; 
+    margin-top: 150px; 
+} 
+ 
+.count-numbers { 
+    animation-name:count-numbers;
     animation-duration: 10s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-@keyframes box-3{
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(2);
-    }
-}
-.div-4{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    border-radius: 5px;
-    position: absolute;
-    top:-6px;
-    z-index: 4;
-    left: 620px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation-name: box-4;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-@keyframes box-4{
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1.5px);
-    }
-}
-
-.div-5{
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    border-radius: 5px;
-    position: absolute;
-    top:-6px;
-    z-index: 5;
-    left: 620px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation-name: box-5;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-@keyframes box-5{
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1.5px);
-    }
+    animation-fill-mode: forwards;
+    background-color: #f3f3f3; 
+    counter-reset: count 0; 
+} 
+ 
+.count-numbers::before { 
+    color: #000; 
+    content: counter(count); 
+    font-size: 5rem; 
+} 
+ 
+@keyframes count-numbers { 
+    0% { 
+      counter-increment: count 0; 
+    } 
+ 
+    10% { 
+      counter-increment: count 1; 
+    } 
+ 
+    20% { 
+      counter-increment: count 2; 
+    } 
+ 
+    30% { 
+      counter-increment: count 3; 
+    } 
+ 
+    40% { 
+      counter-increment: count 4; 
+    } 
+ 
+    50% { 
+      counter-increment: count 5; 
+    } 
+ 
+    60% { 
+      counter-increment: count 6; 
+    } 
+ 
+    70% { 
+      counter-increment: count 7; 
+    } 
+ 
+    80% { 
+      counter-increment: count 8; 
+    } 
+ 
+    90% { 
+      counter-increment: count 9; 
+    } 
+ 
+    100% { 
+      counter-increment: count 10; 
+    } 
 }

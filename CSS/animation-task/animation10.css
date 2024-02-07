@@ -1,0 +1,62 @@
+.container{
+    background-color: lightgray;
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.circle-1{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-top:10px solid red;
+    border-bottom: 10px solid darkgreen;
+    border-left: 10px solid darkgreen;
+    border-right: 10px solid darkgreen;
+    border-radius: 100%;
+    animation-name: clock-wise;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+@keyframes clock-wise{
+    0%{
+        transform: rotate(0deg);
+       
+    }
+   
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.circle-2{
+    height: 100px;
+    width: 100px;
+    border-top:10px solid red;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 100%;
+    background-color: blue;
+    position: absolute;
+    left:50px;
+    top: 50px;
+    bottom: -300px;
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+       
+    }
+   
+    100%{
+        transform: rotate(360deg);
+    }
+}
