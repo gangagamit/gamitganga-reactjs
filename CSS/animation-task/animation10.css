@@ -15,10 +15,10 @@
     border-right: 10px solid darkgreen;
     border-radius: 100%;
     animation-name: clock-wise;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction:alternate-reverse;
+    /* animation-direction:alternate-reverse; */
 }
 @keyframes clock-wise{
     0%{
@@ -44,19 +44,19 @@
     top: 50px;
     bottom: -300px;
     animation-name: rotate;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    /* animation-direction: alternate-reverse;  */
 
 }
 @keyframes rotate{
     0%{
-        transform: rotate(0deg);
+        transform: rotate(360deg);
        
     }
    
     100%{
-        transform: rotate(360deg);
+        transform: rotate(0deg);
     }
 }
