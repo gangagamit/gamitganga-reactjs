@@ -9,8 +9,8 @@
 }
 //while loop
 {
-    // let i = n;
     // let n = 10;
+    // let i = n;
     // while(i>0)
     // {
     //     console.log(i);
@@ -19,10 +19,10 @@
 }
 //do while
 {
-    // let i = 1;
-    // let n = prompt("enter a value")
+    // let n = 10;
+    // let i = n;
     // do{
     //     console.log(i);
     //     i--;
-    // }while(i<=n);
+    // }while(i>0);
 }

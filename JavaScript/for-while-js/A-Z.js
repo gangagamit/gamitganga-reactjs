@@ -1,19 +1,19 @@
 //for loop
 {
-    // let i;
-    // for(i=65; i<=90; i++)
-    // {
-    //     console.log(String.fromCharCode(i));
-    // }
+    let i;
+    for(i=65; i<=90; i++)
+    {
+        console.log(String.fromCharCode(i));
+    }
 }
 //while loop
 {
-    // let i = 65;
-    // while(i<=90)
-    // {
-    //     console.log(String.fromCharCode(i));
-    //     i++;
-    // }
+    let i = 65;
+    while(i<=90)
+    {
+        console.log(String.fromCharCode(i));
+        i++;
+    }
 }
 //do while
 {

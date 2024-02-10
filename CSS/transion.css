@@ -30,6 +30,7 @@ body{
 }
 .div-1:hover{
    background-color: red;
+   transform: scale(1.1);
 }
 
  .pare-1:hover{
@@ -94,6 +95,10 @@ span{
     padding: 15px;
     background-image: url('image/p2');
 }
+.div-2:hover
+{
+    transform: scale(1.1);
+}
 .pere-2:hover{
    
     transform:translateY(20px);
@@ -146,6 +151,10 @@ span{
     border-radius: 5px;
     padding: 15px;
     background-image: url('image/p-4.jpg');
+}
+.div-3:hover
+{
+    transform: scale(1.1);
 }
 .pere-3:hover{
    
