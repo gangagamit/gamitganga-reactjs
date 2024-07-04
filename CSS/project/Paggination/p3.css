@@ -1,0 +1,37 @@
+.paggination
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.page-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page-1:hover{
+    height: 30px;
+    width: 30px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: white;
+}
+.page-1:hover a{
+    color: white;
+}
+.page-1 a{
+    text-decoration: none;
+    display: flex;
+}
+.left:hover{
+    transform: translateX(-5px);
+    transition: 2s;
+}
+.right:hover{
+    transform: translateX(5px);
+    transition: 2s;
+}

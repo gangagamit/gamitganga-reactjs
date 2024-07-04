@@ -1,0 +1,11 @@
+@media (max-width:996px)
+{
+    .main{
+        grid-template-columns: 1fr 200px;
+        grid-template-rows: repeat(6,150px);
+        grid-template-areas: initial;
+    }
+    .card{
+        grid-area: initial !important;
+    }
+}

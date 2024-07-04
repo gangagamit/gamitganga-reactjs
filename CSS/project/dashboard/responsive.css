@@ -1,0 +1,363 @@
+@media (max-width:576px) {
+    aside{
+        display: none;
+    }
+    button{
+        display: block;
+    }
+    
+.search{
+  /* width: 100%; */
+  background-color:#dcdcde;
+  height: 100%;
+  padding: 10px;
+}
+    .search-icon{
+        display: none;
+    }
+    .part-1 h4{
+        font-size: 30px;
+    }
+    .second{
+      max-width: 100%;
+      height: 100%;
+  }
+    .section-1{
+       display: block; 
+      /* display: flex; */
+      flex-wrap: wrap;
+    }
+  
+    .div-1{
+        display: flex;
+        width:auto;
+        position: relative;
+        height: fit-content;
+        /* padding: 10px; */
+        overflow: hidden;
+        /* padding: 50px; */
+    }
+    .part-2 img{
+      width: 100%;
+      height: auto;
+    }
+   
+    .div-2{
+        /* display: flex; */
+        width:554px;
+        /* background-color: red; */
+        /* width:100% !important; */
+        height: fit-content;
+    }
+    .prc-1{
+      height: 10px;
+      width: 50%;
+      background-color: aqua;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin-left: 10px;
+  }
+  .prc-2{
+    height: 10px;
+    width: 50%;
+    background-color: darkblue;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+    .div-3{
+        width:100%;
+        position: relative;
+        height: fit-content;
+    }
+    .gr img{
+        width: 100%;
+   
+        height: auto;
+    }
+  .section-2{
+    display: flex;
+      flex-wrap: wrap;
+  }
+  .div-4{
+    width: 100%;
+    position: relative;
+    height: fit-content;
+  }
+  .mpr{
+    height: fit-content;
+    width: auto;
+  }
+  .line-gr{
+    order: 1;
+  }
+  .line-gr img{
+    width: 100%;
+    height: auto;
+  }
+  .div-5{
+    width: 500px !important;
+    position: relative;
+    height: fit-content;
+  }
+
+  .section-3{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .div-6{
+    width: 100%;
+    padding: 20px;
+   font-size: 2.5vw;
+    position: relative;
+    height: fit-content;
+  }
+ .div-7{
+  width: 100%;
+  /* padding: 10px; */
+  font-size: 2.5vw;
+  position: relative;
+  height: fit-content;
+ }
+ .proline img{
+  width: 100%;
+  height: auto;
+ }
+ .div-8{
+  width: 100%;
+  /* padding: 10px; */
+  font-size: 2.5vw;
+  position: relative;
+  height: fit-content;
+ }
+ .div-9{
+  width: 100%;
+  padding: 20px;
+  font-size: 2.5vw;
+  position: relative;
+  height: fit-content;
+ }
+ .di-2 p,.Si-2 p,.Ni-2 p,.ri-2 p,.Ai-2 p,.Oi-2 p{
+  font-size: 0.9rem;
+ }
+ 
+ .section-4{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .div-10{
+  width: 100%;
+  padding: 20px;
+  font-size: 2.5vw;
+  position: relative;
+  height: fit-content;
+ }
+ .webSCE1,.socialbn1,.logodsg1,.iosdesign1,.figma1{
+  height: 40px;
+  width: 40px;
+ }
+ .webSCE2 span,.socialbn2 span,.logodsg2 span,.ios-design-2 span,.figma2 span{
+  font-size: 1rem;
+  color:#59575e;
+  font-weight: bolder;
+ }
+ .webSCE2 p,.socialbn2 p,.logodsg2 p,.ios-design-2 p,.figma2 p{
+  font-size: 0.9rem;
+ }
+}
+
+
+
+
+@media (max-width:768px){
+  aside{
+    display: none;
+  }
+  .nav-bar{
+    width: 100%;
+  }
+  .search{
+    background-color:#dcdcde;
+    height: 100%;
+    padding: 10px;
+  }
+  .section-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .div-1{
+    min-width: 100%;
+    position: relative;
+    height: fit-content;
+   
+  }
+ 
+  .div-2{
+    height:fit-content;
+    min-width: 50% !important;
+    position: relative;
+  }
+  .prr{
+    margin-top: 10px;
+  }
+  
+ .div-3{
+    height:fit-content;
+    min-width: 45% !important;
+    position: relative; 
+  } 
+  .section-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .div-4{
+    height: fit-content;
+    width: 100% !important;
+    display: block;
+  }
+  .sss{
+    display: flex;
+    margin-left: 30px;
+  }
+  .div-5{
+    height: fit-content;
+    width:100% !important;
+    display: block;
+ 
+  }
+  .section-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .div-6{
+    height: fit-content;
+    width:100% !important;
+    font-size: 18px;
+    display: block;
+    margin-top: 10px;
+  }
+  .div-6 h3{
+    font-size: 80%;
+  }
+  .div-6 p{
+    font-size:70%;
+  }
+ .div-7{
+  height: fit-content;
+  width:100% !important;
+  /* display: block; */
+  font-size: 18px;
+  margin-top: 10px;
+ }
+ .proline{
+  margin-left: 80px;
+ }
+ .NUM{
+  margin-left: 20px;
+ }
+ .div-8{
+  height: fit-content;
+  width:100% !important;
+  font-size: 18px;
+  margin-top: 10px;
+ }
+ .div-8 p{
+  font-size: 80%;
+ }
+ .section-4{
+  display: block;
+ }
+ .div-9{
+  height: fit-content;
+  width:100% !important;
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+ }
+ .div-10{
+  height: fit-content;
+  width:auto !important;
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+ }
+
+}
+
+
+
+@media (max-width:992px){
+  aside{
+    display: none;
+  }
+  .section-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+   .div-4{
+    height: fit-content;
+    width: 100%;
+  } 
+  .div-5{
+    height: fit-content;
+    width: 100%;
+  } 
+  .new{
+    margin-top: 20px;
+  }
+  .neww{
+    margin-top: 20px;
+  }
+  .newwn{
+    margin-top: 20px;
+  }
+  /* .support{
+    margin-left: 100px;
+  }
+  .cgr img{
+    margin-top: 20px;
+    margin-left: 150px;
+   
+  } */
+  .section-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .div-6{
+    height: fit-content;
+    width: 50%;
+  }
+  .div-7{
+    height: fit-content;
+    width: 49%;
+  }
+  .div-8{
+    display: block;
+    height: fit-content;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .section-4{
+    display: block;
+  }
+  .div-9{
+    height: fit-content;
+    width: 100%;
+   
+  }
+  .div-10{
+    height: fit-content;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width:1400px){
+  button{
+    display: none;
+  }
+}

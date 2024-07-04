@@ -1,0 +1,168 @@
+@media (max-width:576px){
+    .nav-2{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+@media (max-width:576px){
+    .main-div{
+        width: 100%;
+        height: fit-content;
+    }
+    .nav-2{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .hdiv{
+        width: 100%;
+        height: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .hdiv-1{
+       width: 100%;
+       height: 100%;
+       display: block; 
+    }
+    .hdiv-2 img{
+        width: 100%;
+        height: 100%;
+        display: block; 
+        justify-content: center;
+        align-items: center;
+    }
+    .section-2{
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 10px;
+        /* flex-direction: row; */
+    }
+     .intertainment,.eduction{
+        height: 100%;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .play,.music,.arts,.safe,.food,.Tour{
+        height: 100%;
+        width: 100%;
+        display: block;
+        
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .parent{
+        display: block;
+    }
+    .child{
+        height: 100%;
+        width: 100%;
+    }
+    .class-part{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .class-1,.class-2,.class-3{
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+@media (max-width:768px){
+    .main-div{
+        width: 100%;
+        height: fit-content;
+    }
+
+    .nav-2{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .hdiv{
+        width: 100%;
+        height: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .hdiv-1{
+       width: 100%;
+       height: 100%;
+       display: block; 
+       padding: 10px;
+    }
+    .hdiv-2 img{
+        width: 100%;
+        height: 100%;
+        display: block; 
+        justify-content: center;
+        align-items: center;
+    }
+    .section-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        /* flex-direction: row; */
+    }
+     .intertainment,.eduction{
+        height: 100%;
+        width: 100%;
+        display: block;
+       
+        justify-content: center;
+        align-items: center;
+    }
+    .play,.music,.arts,.safe,.food,.Tour{
+        height: 100%;
+        width: 100%;
+        display: block;
+        
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .parent{
+        display: block;
+    }
+    .child{
+        height: 100%;
+        width: 100%;
+    }
+    .img-2 img{
+        width: 100% !important;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        
+    }
+    .child-1 img{
+        width: 80vw !important;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .class-part{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .class-1,.class-2,.class-3{
+        height: 100%;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
